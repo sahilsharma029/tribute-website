@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    background-color: #145586;
+    min-height: 100vh;
+    border: 0.7rem solid #9797db;
+    border-radius: 5px;
+}
+
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+    /* display: flex; */  
+}
+
+.top-section{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.top-section h1{
+    
+    font-size: 2.8rem;
+    font-weight: 0.7rem;
+    
+}
+
+.top-section h4{
+    font-size: 1.7rem;
+    margin-top: 4.1px;
+    text-align: end;
+}
+
+.img-container img{
+    height: 300px;
+    width: 320px;
+    border-radius: 48%;
+}
+
+.img-container img:hover{
+    box-shadow: 0 4px 8px 0 rgb(1, 225, 255), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.intro{
+    color: #fffffd;
+    margin-left: 2rem;
+    margin-bottom: 10px;
+}
+
+/* about section */
+
+.about-section h2{
+    color: white;
+    display: flex;
+    font-size: 3rem;
+    margin-top: 50px;
+    align-items: center;
+    margin-left: auto;
+}
+
+.about-section h2{
+    font-family: Arial, Helvetica, sans-serif;
+   font-style: normal;
+}
+
+.about-section p{
+    color: white;
+    font-size: 1.02rem;
+    margin-top: 10px;
+    line-height: 1.4rem;
+    text-align: justify;
+
+}
+
+.bio h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    margin-top: 25px;
+    color: white;
+}
+
+.bio ul{
+    color: white;
+    margin-top: 15px;
+    line-height: 1.4rem;
+    margin-left: 3rem;
+}
+
+.up-foot{
+    /* display: flex;
+    justify-content: space-evenly;
+    align-items:center; */
+    margin-top: 40px;
+}
+
+.up-foot a{
+    align-items: end;
+    color: white;
+    text-align: end;
+}
+.up-foot p{
+    color: white;
+    text-align: end;
+}
+
+
+.footer{
+    margin-top: 5rem;
+    height: 60px;
+    width: 100%;
+    color: aqua;
+    background-color: rgb(80, 94, 125);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: none;
+    border-radius: 1rem;
+}
+
+.footer p{
+    color: rgb(247, 228, 228);
+}
